@@ -31,3 +31,16 @@ Built with:
 ```bash
 git clone https://github.com/your-username/tdee-calculator.git
 cd tdee-calculator
+
+## Backend Setuo (Flask)
+cd backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+
+## Frontend Setup (React)
+cd frontend
+npm install
+npm start
+
